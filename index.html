@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzzz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Quizzzz Time </h1>
+        <p>Test your knowledge with multiple choice questions</p>
+
+    </header>
+    <main>
+        <div class="loading_area">
+            <p>Loading the quiz...</p>
+        </div>
+        <section>
+            <div id="progress_area" class="progress">
+                <p> 0/10 Answered </p>
+            </div>
+            <div id="question_container" class="question_container"></div>
+            <button id="submit">Submit</button>
+        </section>
+        <section>
+             <div id="result" class="result">
+                <h1>Quizzzz Result</h1>
+                <div id="score" class="score"></div>
+                <div id="percentage" class="percentage"></div>
+                <div id="question_feedback" class="feedback"></div>
+                <button id="restart">Restart</button>
+            </div>
+        </section>
+    </main>
+<script src="script.js"></script>
+</body>
+
+</html>
